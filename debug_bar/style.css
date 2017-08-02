@@ -1,0 +1,38 @@
+body.dbwp-expanded { padding-bottom:208px !important }
+
+#dbwp_bar_wrap { position:fixed; background:#FFF; bottom:0; left:0; width:100%; overflow:hidden; z-index:999999; font-size:11px; font-family:Arial,Helvetica,sans-serif; line-height:10px; color:#333; margin:0; padding:0; border:none; }
+#dbwp_bar_wrap a { color:#e6007e }
+#dbwp_bar_wrap a:hover { color:#9b0055 }
+
+#dbwp_bar_wrap #dbwp_bar { color:#CCC; padding:0; margin:0; bottom:0; left:0; background:#464646; background-image: -moz-linear-gradient(center bottom , #373737, #464646 5px); height:28px; width:100%; overflow:hidden; z-index:999999 }
+#dbwp_bar_wrap #dbwp_bar ul { list-style:none; padding:0; height:28px; margin:0 }
+#dbwp_bar_wrap #dbwp_bar ul li { float:left; height:28px; line-height:28px; padding:0 8px; border-left:1px solid #222; border-right:1px solid #555 }
+#dbwp_bar_wrap #dbwp_bar ul li a { color:#CCC; text-decoration:none; display:inline-block; width:auto; height:100%; cursor:pointer }
+#dbwp_bar_wrap #dbwp_bar ul li.first { border-left:none } 
+#dbwp_bar_wrap #dbwp_bar ul li.last { border-right:none }
+#dbwp_bar_wrap #dbwp_bar ul li:hover a { color:#FFF }
+#dbwp_bar_wrap #dbwp_bar ul li:hover { background:#333 }
+#dbwp_bar_wrap #dbwp_bar ul li span.icon_plus { margin-top:6px; background-image:url("images/admin-bar-sprite.png?d=20111130"); background-position:-1px -182px; background-repeat no-repeat; display:block; float:left; height:15px; width:15px; margin-right:5px }
+
+#dbwp_bar_wrap #dbwp_slide { display:none; background:#EEE; overflow:hidden }
+#dbwp_bar_wrap #dbwp_slide.shown { display:block; width:100%; height:auto }
+#dbwp_bar_wrap #dbwp_slide * { -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box }
+#dbwp_bar_wrap #dbwp_slide .dbwp_panel { width:16%; background:#FFF; float:left; margin:0.666666666666666666666666% 0.33333333333333333333333333333333%; padding:10px; border:1px solid #DDD; border-radius:4px; box-shadow:0 1px 3px rgba(0,0,0,0.3); height:150px; overflow-y:auto }
+#dbwp_bar_wrap #dbwp_slide .dbwp_panel.last { margin-right:0 }
+#dbwp_bar_wrap #dbwp_slide .dbwp_panel dl { overflow:hidden; margin:0 }
+#dbwp_bar_wrap #dbwp_slide .dbwp_panel dl dt { float:left; width:48%; clear:left; font-weight:700; text-align:right; margin:0 4% 10px 0 }
+#dbwp_bar_wrap #dbwp_slide .dbwp_panel dl dd { float:left; width:48%; margin:0 0 10px 0 }
+#dbwp_bar_wrap #dbwp_slide .dbwp_panel ul { margin-bottom:0; margin-left:20px }
+#dbwp_bar_wrap #dbwp_slide .dbwp_panel ul li { margin-bottom:10px }
+#dbwp_bar_wrap #dbwp_slide .dbwp_panel .dbwp_heading { font-size:14px; font-weight:bold; margin-bottom:10px; padding-bottom:10px; border-bottom:1px solid #DDD }
+
+@media (max-width: 1150px)
+{
+body.dbwp-expanded { padding-bottom:376px !important }
+#dbwp_bar_wrap #dbwp_slide .dbwp_panel { width:32%; margin-bottom:0.8% }
+}
+
+@media (max-width: 640px)
+{
+#dbwp_bar_wrap #dbwp_slide .dbwp_panel { width:96%; margin:2% }
+}
